@@ -1,4 +1,4 @@
-# 📚 Estudos de HTML e CSS
+# 📚 Estudos de HTML 
 
 ## 🎯 Visão Geral
 
@@ -202,9 +202,9 @@ Com a base sólida em HTML e CSS, os próximos objetivos são:
 ## 📞 Contato
 
 Para dúvidas sobre os estudos ou colaboração:
-- 📧 Email: [seu-email@exemplo.com]
-- 💻 GitHub: [seu-usuario-github]
-- 📱 LinkedIn: [seu-linkedin]
+- 📧 Email: thiagomatostertuliano@gmail.com
+- 💻 GitHub: https://github.com/Thiago-Tertuliano
+- 📱 LinkedIn: https://www.linkedin.com/in/thiago-tertuliano/
 
 ---
 
