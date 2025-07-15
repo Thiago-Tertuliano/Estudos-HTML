@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page do Produto X - Soluções inovadoras para seu dia a dia">
+  <title>Produto X - Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header role="banner">
+    <div class="container">
+      <h1>Produto X</h1>
+      <nav role="navigation" aria-label="Menu principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#vantagens">Vantagens</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-texto">
+            <h2 id="hero-title">Transforme sua experiência com o Produto X</h2>
+            <p>Simples. Rápido. Inovador. Descubra como nossa solução pode revolucionar seu dia a dia.</p>
+            <a href="#contato" class="botao" aria-label="Saiba mais sobre o produto">Quero saber mais</a>
+          </div>
+          <div class="hero-imagem">
+            <img src="https://via.placeholder.com/400x300" alt="Imagem ilustrativa do Produto X em uso" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre" aria-labelledby="sobre-title">
+      <div class="container">
+        <h2 id="sobre-title">Sobre o Produto</h2>
+        <p>O Produto X foi criado para facilitar sua vida com soluções modernas e acessíveis. Nossa missão é simplificar processos complexos e tornar sua experiência mais eficiente.</p>
+      </div>
+    </section>
+
+    <section id="vantagens" class="vantagens" aria-labelledby="vantagens-title">
+      <div class="container">
+        <h2 id="vantagens-title">Nossas Vantagens</h2>
+        <div class="cards" role="list">
+          <div class="card" role="listitem">
+            <h3>🚀 Velocidade</h3>
+            <p>Resposta rápida e sem complicações. Processos otimizados para máxima eficiência.</p>
+          </div>
+          <div class="card" role="listitem">
+            <h3>🎯 Facilidade</h3>
+            <p>Interface intuitiva e direta ao ponto. Aprenda a usar em minutos.</p>
+          </div>
+          <div class="card" role="listitem">
+            <h3>💬 Suporte</h3>
+            <p>Estamos com você em cada passo. Suporte 24/7 sempre disponível.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato" aria-labelledby="contato-title">
+      <div class="container">
+        <h2 id="contato-title">Entre em Contato</h2>
+        <form role="form" aria-labelledby="contato-title">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required aria-required="true">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+          </div>
+          
+          <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required aria-required="true"></textarea>
+          </div>
+          
+          <button type="submit" class="botao">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 Produto X. Todos os direitos reservados.</p>
+      <div class="social-links" role="navigation" aria-label="Redes sociais">
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
