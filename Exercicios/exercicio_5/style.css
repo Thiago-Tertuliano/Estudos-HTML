@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #777;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#sobre {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projetos {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#metas {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#recursos {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+#contato {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, label, select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
